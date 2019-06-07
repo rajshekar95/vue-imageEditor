@@ -1,0 +1,59 @@
+{
+  "name": "imageeditor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "postInstall": "npm install --no-save --no-optional fabric@^1.6.7"
+  },
+  "dependencies": {
+    "@toast-ui/vue-image-editor": "^1.0.2",
+    "bcrypt": "^3.0.6",
+    "canvas": "^2.5.0",
+    "core-js": "^2.6.5",
+    "fab": "^0.5.2",
+    "fabric": "^2.7.0",
+    "tui": "^1.0.0",
+    "tui-image-editor": "^3.5.2",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "svg-inline-loader": "^0.8.0",
+    "svgo": "^1.1.0",
+    "svgo-loader": "^2.1.0",
+    "vue-cli-plugin-svg-sprite": "^1.0.0",
+    "vue-svg-loader": "^0.12.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
